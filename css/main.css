@@ -428,11 +428,79 @@ a{
     line-height: 180%;
     color: #FFFFFF;
 }
-
-
 /* ************** BENEFIT SECTION ENDS *************** */
 
 
+/* ************** OFFER SECTION STARTS *************** */
+.offer-section{
+    margin-bottom: 103px;
+}
+
+.offer-section__title{
+    margin-top: 0;
+    margin-bottom: 29px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.offer-section__desc{
+    margin-top: 0;
+    margin-bottom: 72px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.offer-section__list{
+    margin-top: 0;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer-section__item{
+    margin-right: 40px;
+    padding-left: 128px;
+    width: 100%;
+    max-width: 580px;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.offer-section__subtitle{
+    padding-top: 32px;
+    margin-bottom: 24px;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.offer-section__subdesc{
+    margin-top: 0;
+    padding-bottom: 38px;
+    width: 352px;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #272727;
+}
+
+
+
+/* ************** OFFER SECTION ENDS *************** */
 
 
 
