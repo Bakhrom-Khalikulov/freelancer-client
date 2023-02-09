@@ -263,6 +263,7 @@ a{
 /* ************** SUMMARY SECTION STARTS *************** */
 .summary-section{
     background-color: #fff;
+    margin-bottom: 150px;
 }
 
 .summary-section__wrapper{
@@ -316,16 +317,120 @@ a{
     letter-spacing: -0.005em;
     color: #C4C4C4;
 }
-
-
-
-
-
-
-
-
-
 /* ************** SUMMARY SECTION ENDS *************** */
+
+
+/* ************** BENEFIT SECTION STARTS *************** */
+.benefit-section{
+    margin-bottom: 118px;
+}
+
+.benefit-section__wrapper--info{
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.benefit-section__text{
+    margin-top: 0;
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.benefit-section__wrapper--start{
+    margin-top: 0;
+    margin-bottom: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefit-section__title{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+
+.benefit-section__desc{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: #FFFFFF;
+}
+
+.benefit-section__list{
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.benefit-section__item{
+    position: relative;
+    width: 100%;
+    max-width: 308px;
+    padding-left: 65px;
+}
+
+.benefit-section__item:nth-child(1)::before{
+    position: absolute;
+    content: url(../images/benefit_icon1.svg);
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 15;
+}
+
+.benefit-section__item:nth-child(2)::before{
+    position: absolute;
+    content: url(../images/benefit_icon2.svg);
+    top: 0;
+    left: 0;
+    width: 37px;
+    height: 27px;
+}
+
+.benefit-section__item:nth-child(3)::before{
+    position: absolute;
+    content: url(../images/benefit_icon3.svg);
+    top: 0;
+    left: 0;
+    width: 36px;
+    height: 31px;
+}
+
+.benefit-section__subtitle{
+    margin-top: 0;
+    margin-bottom: 9px;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.benefit-section__subdesc{
+    max-width: 243px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: #FFFFFF;
+}
+
+
+/* ************** BENEFIT SECTION ENDS *************** */
 
 
 
