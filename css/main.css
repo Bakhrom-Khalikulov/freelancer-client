@@ -137,9 +137,10 @@ a{
 /* ************** HEADER-HERO STYLE STARTS *************** */
 
 .header-hero{
-    /* width: 100%;
-    background-image: url(../images/background_dec.png);
-    background-repeat: no-repeat; */
+    width: 100%;
+    background-image: url(../images/background_dec2.png), url(../images/background_dec.png);
+    background-repeat: no-repeat;
+    background-position: calc(50% - 793px) calc(50% - 263px), calc(50% + 400px)  calc(50% + 300px);
 }
 
 
@@ -208,6 +209,7 @@ a{
 .hero-section__wrapper--start{
     width: 100%;
     max-width: 500px;
+    margin-bottom: 210px;
 }
 
 .hero-section__title{
@@ -234,7 +236,6 @@ a{
 
 .hero-section__link{
     margin-top: 0;
-    margin-bottom: 233px;
     padding: 16px 40px;
     font-family: 'DM Sans';
     font-style: normal;
@@ -255,3 +256,82 @@ a{
 }
 
 /* ************** HERO STYLE ENDS *************** */
+
+
+/* ************** MAIN STYLES START *************** */
+
+/* ************** SUMMARY SECTION STARTS *************** */
+.summary-section{
+    background-color: #fff;
+}
+
+.summary-section__wrapper{
+    padding-top: 90px;
+    padding-bottom: 85px;
+}
+
+.summary-section__list{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.summary-section__item:not(:last-child){
+    padding-right: 85px;
+    border-right: 1px solid #D8D8D8;
+}
+
+.summary-section__title{
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: -0.005em;
+    text-align: center;
+    color: #070707;
+}
+
+.summary-section__desc{
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.005em;
+    color: #070707;
+}
+
+.summary-section__subdesc{
+    margin-top: 0;
+    text-align: center;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.005em;
+    color: #C4C4C4;
+}
+
+
+
+
+
+
+
+
+
+/* ************** SUMMARY SECTION ENDS *************** */
+
+
+
+
+
+
+
+
+/* ************** MAIN STYLES END *************** */
