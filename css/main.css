@@ -541,7 +541,55 @@ a{
 /* ************** OFFER SECTION ENDS *************** */
 
 
+/* ************** CREATIVE SECTION START *************** */
+.creative-section{
+    margin-bottom: 117px;
+}
 
+.creative-section__title{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 18px;
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+
+.creative-section__desc{
+    width: 100%;
+    max-width: 417px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 56px;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #999999;
+}
+
+.creative-section__pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    flex-wrap: wrap;
+    width: 1240px;
+}
+
+.creative-section__img{
+    margin-right: 24px;
+    margin-bottom: 24px;
+    border-radius: 12px;
+
+}
+
+/* ************** CREATIVE SECTION ENDS *************** */
 
 
 
