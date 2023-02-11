@@ -718,7 +718,6 @@ a{
 
 /* ************** SUBSCRIBING SECTION STARTS *************** */
 .subscribe-section{
-    margin-bottom: 42px;
     background-color: #fff;
 }
 
@@ -763,12 +762,96 @@ a{
     border: none;
 }
 
-
-
 /* ************** SUBSCRIBING SECTION ENDS *************** */
 
 
-
-
-
 /* ************** MAIN STYLES END *************** */
+
+
+
+
+/* ************** FOOTER STARTS *************** */
+.site-footer{
+    padding-top: 42px;
+    background-color: #070707;
+}
+
+.site-footer__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 42px;
+}
+
+.site-footer__text{
+    width: 100%;
+    max-width: 320px;
+}
+
+.site-footer__title{
+    margin-top: 0;
+    margin-bottom: 17px;
+    font-family: 'Cerebri Sans';
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.site-footer__desc{
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #C4C4C4;
+}
+
+.site-footer__img{
+    display: flex;
+}
+
+.site-footer__social:not(:last-child){
+    margin-right: 16px;
+}
+
+.site-footer__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-footer__item:not(:last-child){
+    margin-right: 75px;
+}
+
+.site-footer__subtitle{
+    margin-top: 0;
+    margin-bottom: 27px;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.site-footer__subdesc{
+    margin-top: 0;
+    margin-bottom: 27px;
+    font-family: 'Ubuntu';
+    font-size: 14px;
+    line-height: 16px;
+    color: #C4C4C4;
+}
+
+.site-footer__copyright{
+    padding-top: 34px;
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(196, 196, 196, 0.5);
+    border-top: 1px solid rgba(196, 196, 196, 0.5);
+}
+
+/* ************** FOOTER ENDS *************** */
