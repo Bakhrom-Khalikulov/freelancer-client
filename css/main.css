@@ -586,11 +586,137 @@ a{
     margin-right: 24px;
     margin-bottom: 24px;
     border-radius: 12px;
-
+    
 }
 
 /* ************** CREATIVE SECTION ENDS *************** */
 
+
+/* ************** PRICING SECTION STARTS *************** */
+.pricing-section{
+    margin-bottom: 172px;
+}
+
+.pricing-section__title{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.pricing-section__desc{
+    width: 100%;
+    max-width: 484px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 71px;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+
+.pricing-section__list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pricing-section__item{
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    min-height: 450px;
+    padding-top: 52px;
+    padding-right: 37px;
+    padding-bottom: 48px;
+    /* padding-left: 52px; */
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.pricing-section__tarifs{
+    margin-top: 0;
+    margin-bottom: 21px;
+    padding-left: 24px;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.pricing-section__prices{
+    margin-top: 0;
+    margin-bottom: 24px;
+    padding-left: 24px;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 55px;
+    color: #000000;
+}
+
+.pricing-section__month{
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 55px;
+    color: #000000;
+}
+
+.pricing-section__info{
+    position: relative;
+    margin-top: 0;
+    padding-left: 52px;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #272727;
+}
+
+.pricing-section__info::before{
+    position: absolute;
+    content: url(../images/tick.svg);
+    left: 28px;
+}
+
+.pricing-section__btn{
+    position: absolute;
+    bottom: 48px;
+    left: 68px;
+    margin-top: 0;
+    padding: 12px 45px;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #272727;
+    border: 1.2px solid #272727;
+    border-radius: 50px;
+}
+
+.pricing-section__btn:active{
+    color: #fff;
+    background: #FC3867;
+    border-radius: 50px;
+    border: none;
+}
+
+
+
+
+/* ************** PRICING SECTION ENDS *************** */
 
 
 /* ************** MAIN STYLES END *************** */
