@@ -344,7 +344,10 @@ a{
     margin-bottom: 56px;
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 }
+
+
 
 .benefit-section__title{
     margin-top: 0;
@@ -439,46 +442,50 @@ a{
 .offer-section__title{
     margin-top: 0;
     margin-bottom: 29px;
+    text-align: center;
     font-family: 'Ubuntu';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 41px;
-    text-align: center;
     color: #FFFFFF;
 }
 
 .offer-section__desc{
     margin-top: 0;
     margin-bottom: 72px;
+    text-align: center;
     font-family: 'Ubuntu';
-    font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
-    text-align: center;
     color: #FFFFFF;
 }
 
 .offer-section__list{
-    margin-top: 0;
-    margin-bottom: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    width: 1240px;
 }
 
 .offer-section__item{
-    margin-right: 40px;
-    padding-left: 128px;
+    position: relative;
     width: 100%;
+    min-height: 267px;
     max-width: 580px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    padding-top: 24px;
+    padding-right: 90px;
+    padding-bottom: 36px;
+    padding-left: 128px;
     background-color: #fff;
     border-radius: 12px;
 }
 
 .offer-section__subtitle{
-    padding-top: 32px;
+    margin-top: 0;
     margin-bottom: 24px;
     font-family: 'Ubuntu';
     font-weight: 700;
@@ -489,8 +496,6 @@ a{
 
 .offer-section__subdesc{
     margin-top: 0;
-    padding-bottom: 38px;
-    width: 352px;
     font-family: 'Ubuntu';
     font-weight: 400;
     font-size: 18px;
@@ -498,8 +503,41 @@ a{
     color: #272727;
 }
 
+.offer-section__item::before{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    content: url(../images/offer1.svg);
+    top: 24px;
+    left: 32px;
+    width: 80px;
+    height: 80px;
+    padding: 32px;
+    border-radius: 50%;
+    background-color: #FC3867;
+    color: #000000;
+}
 
+.offer-section__item:nth-child(2)::before{
+    content: url(../images/offer2.svg);
+}
 
+.offer-section__item:nth-child(3)::before{
+    content: url(../images/offer3.svg);
+}
+
+.offer-section__item:nth-child(4)::before{
+    content: url(../images/offer4.svg);
+}
+
+.offer-section__item:nth-child(5)::before{
+    content: url(../images/offer5.svg);
+}
+
+.offer-section__item:nth-child(6)::before{
+    content: url(../images/offer6.svg);
+}
 /* ************** OFFER SECTION ENDS *************** */
 
 
