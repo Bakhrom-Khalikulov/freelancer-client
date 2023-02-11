@@ -713,10 +713,62 @@ a{
     border: none;
 }
 
-
-
-
 /* ************** PRICING SECTION ENDS *************** */
+
+
+/* ************** SUBSCRIBING SECTION STARTS *************** */
+.subscribe-section{
+    margin-bottom: 42px;
+    background-color: #fff;
+}
+
+.subscribe-section__wrapper{
+    position: relative;
+    padding-bottom: 40px;
+    min-height: 264px;
+}
+
+.subscribe-section__text{
+    margin-top: 0;
+    padding-top: 40px;
+    margin-bottom: 12px;
+    font-family: 'Cerebri Sans';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #C4C4C4;
+}
+
+.subscribe-section__title{
+    margin-top: 0;
+    margin-bottom: 27px;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 64px;
+    text-align: center;
+    color: #212226;
+}
+
+.subscribe-section_btn{
+    position: absolute;
+    bottom: 40px;
+    left: 500px;
+    margin-top: 0;
+    padding: 16px 40px;
+    color: #fff;
+    background: #FC3867;
+    border-radius: 50px;
+    border: none;
+}
+
+
+
+/* ************** SUBSCRIBING SECTION ENDS *************** */
+
+
+
 
 
 /* ************** MAIN STYLES END *************** */
